@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+h1, h2, h3 {
+	color: #000;
+	text-align: center;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+input {
+	height: 10px;
+	width: 5px;
+}
+table {
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite;
+}
+td {
+	vertical-align: top;
+}
+th {
+	height: 45px;
+}
+table, td, th {
+    border: 1px solid #CCCCCC;
+}
+
+#contenido {
+	float: center;
+	background: #FFF;
+	margin: 0;
+    font-family:Verdana, sans-serif;
+}
+#derecha {
+	float: right;
+	width: 35%;
+	padding-right: 10%;
+	display: inline;
+}
+#izquierda {
+	float: left;
+	width: 35%;
+	padding-left: 10%;
+	display: inline;
+}
+#pagina {
+	width: 100%;
+	margin: 0 auto;
+	background: #FFFFFF;
+}
+.indicaciones{
+	color: white;
+	background-color: #333333;
+}
